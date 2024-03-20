@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex; /* New container for main and aside */
+    height: calc(100% - 210px); /* Adjusted height for main and aside */
+}
+
+.main-content, .aside-content {
+    flex: 1; /* Equal distribution of space for main and aside */
+    border: 1px solid black;
+    text-align: center;
+}
+
+.borderLine {
+    border: 1px solid black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+header, .header, nav, footer {
+    flex: 2 0 auto;
+}
+
+header, nav {
+    height: 100px;
+}
+
+footer {
+    height: 100px;
+}
