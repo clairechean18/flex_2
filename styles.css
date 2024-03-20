@@ -6,12 +6,12 @@ body {
 }
 
 .container {
-    display: flex; /* New container for main and aside */
-    height: calc(100% - 210px); /* Adjusted height for main and aside */
+    display: flex;
+    height: calc(100% - 210px);
 }
 
 .main-content, .aside-content {
-    flex: 1; /* Equal distribution of space for main and aside */
+    flex: 1; 
     border: 1px solid black;
     text-align: center;
 }
